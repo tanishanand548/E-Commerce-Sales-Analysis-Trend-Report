@@ -9,16 +9,13 @@ This project focuses on:
 - **Trend Identification**: Discover patterns and trends in e-commerce data
 - **Customer Insights**: Understand customer behavior and purchasing patterns
 - **Data Visualization**: Create compelling visualizations to communicate findings
-- **Business Intelligence**: Generate actionable insights for business decision-making
 
 ## 🎯 Features
 
 - Data loading and exploration
 - Exploratory Data Analysis (EDA)
 - Sales trend visualization
-- Statistical analysis
 - Customer segmentation insights
-- Performance metrics and KPIs
 - Interactive visualizations and dashboards
 
 ## 📁 Repository Structure
@@ -27,21 +24,11 @@ This project focuses on:
 E-Commerce-Sales-Analysis-Trend-Report/
 ├── README.md
 ├── notebooks/
-│   └── analysis.ipynb (or similar notebook files)
+│   └── analysis.ipynb
 └── data/
-    └── (data files, if applicable)
+    └── (data files)
 ```
 
-## 🛠️ Technologies & Libraries
-
-This project utilizes:
-- **Python 3.x**
-- **Jupyter Notebook** - Interactive computing environment
-- **pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computing
-- **Matplotlib** - Data visualization
-- **Seaborn** - Statistical data visualization
-- **Scikit-learn** - Machine learning and statistical analysis (if applicable)
 
 ## 📋 Getting Started
 
@@ -73,7 +60,7 @@ Ensure you have the following installed:
    
    Or install individually:
    ```bash
-   pip install jupyter pandas numpy matplotlib seaborn scikit-learn
+   pip install pandas numpy matplotlib seaborn sqlalchemy pymysql jupyter
    ```
 
 ### Running the Notebooks
@@ -97,26 +84,12 @@ The notebooks typically include:
 - **Visualizations**: Create charts and graphs to communicate insights
 - **Conclusions & Recommendations**: Summarize findings and actionable insights
 
-## 📈 Key Metrics Analyzed
-
-- Total Sales Revenue
-- Sales by Product Category
-- Customer Acquisition and Retention
-- Average Order Value (AOV)
-- Sales Trends Over Time
-- Regional Performance
-- Seasonal Patterns
-- Customer Lifetime Value (CLV)
-
 ## 🎨 Visualizations
 
 The project includes various visualizations such as:
 - Time series plots
 - Bar charts and histograms
-- Scatter plots
 - Heatmaps
-- Pie charts
-- Distribution plots
 
 ## 💡 How to Use
 
@@ -131,10 +104,9 @@ The project includes various visualizations such as:
 See `requirements.txt` for all dependencies. Key packages include:
 - jupyter
 - pandas
-- numpy
+- sql
 - matplotlib
 - seaborn
-- scikit-learn (optional, for advanced analysis)
 
 ## 🤝 Contributing
 
@@ -147,28 +119,11 @@ Contributions are welcome! To contribute:
 5. Push to the branch (`git push origin feature/improvement`)
 6. Open a Pull Request
 
-## 📄 License
-
-This project is open source and available under the MIT License. See LICENSE file for details.
-
-## 👤 Author
-
-**Tanisha Nand** - [GitHub Profile](https://github.com/tanishanand548)
-
-## 📧 Contact & Support
-
-For questions, suggestions, or issues, feel free to:
-- Open an issue in the GitHub repository
-- Contact the project maintainer
-
-## 🙏 Acknowledgments
-
-- Thanks to the open-source Python data science community
-- Special thanks to libraries like pandas, matplotlib, and seaborn
 
 ## 📚 Resources
 
 Useful resources for e-commerce data analysis:
+- [Kaggle Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?utm_source)
 - [Pandas Documentation](https://pandas.pydata.org/)
 - [Matplotlib Documentation](https://matplotlib.org/)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
@@ -176,6 +131,6 @@ Useful resources for e-commerce data analysis:
 
 ---
 
-**Last Updated**: May 2026
+## 👤 Author
 
-Happy analyzing! 📊✨
+**Tanish Anand** - [GitHub Profile](https://github.com/tanishanand548)
